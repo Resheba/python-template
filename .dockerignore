@@ -1,0 +1,4 @@
+*
+!src/
+!docker/
+!requirements.txt
