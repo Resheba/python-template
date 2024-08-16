@@ -1,16 +1,10 @@
 # Develop
 
 1.
-    Установка зависимотей:
+    Install dependencies:
 
-    Linux:
+        python -m pip install pre-commit
 
-        python3 -m pip install pre-commit
-
-    Windows:
-
-        py -m pip install pre-commit
-
-2. Установка pre-commit хуков и venv:
+2. Set up pre-commit hooks and venv:
 
         make init
