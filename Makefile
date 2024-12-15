@@ -1,5 +1,5 @@
 .SILENT:
-.PHONY: init requirements run
+.PHONY: init requirements run, test
 
 
 init:
@@ -12,3 +12,8 @@ requirements:
 
 run:
 	python -m src.main
+
+test:
+	mkdir -p report/tests/
+	pytest --cov=src --html=report/tests/index.html tests/
+	coverage html -d report/coverage
