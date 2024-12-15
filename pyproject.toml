@@ -26,6 +26,15 @@ ignore_missing_imports = true
 disallow_subclassing_any = false
 # plugins = [ "pydantic.mypy" ]
 
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "@abstractmethod",
+    "@overload",
+]
+
 [tool.ruff]
 line-length = 100
 target-version = "py311"
