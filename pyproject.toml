@@ -13,6 +13,8 @@ loguru = "^0.7.2"
 [tool.poetry.group.dev.dependencies]
 typing-extensions = "^4.12.2"
 pytest = "^8.2.2"
+pytest-cov = "^6.0.0"
+pytest-html = "^4.1.1"
 ruff = "^0.5.0"
 mypy = "^1.10.1"
 
