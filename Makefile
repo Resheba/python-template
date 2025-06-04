@@ -1,5 +1,5 @@
 .SILENT:
-.PHONY: init requirements run, test
+.PHONY: init requirements run test
 
 
 init:
