@@ -1,10 +1,10 @@
 FROM python:3.13.9-slim
 
+WORKDIR /code
+
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
-
-WORKDIR /code
 
 COPY . .
 
